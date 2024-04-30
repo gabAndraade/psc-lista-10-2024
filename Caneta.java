@@ -1,8 +1,8 @@
 public class Caneta {
-    public String corTinta;
-    public String tipo;
-    public int tamanho;
-    public double espessura;
+    private String corTinta;
+    private String tipo;
+    private int tamanho;
+    private double espessura;
 
     public Caneta(String corTinta, String tipo, int tamanho, double espessura){
         this.corTinta=corTinta;

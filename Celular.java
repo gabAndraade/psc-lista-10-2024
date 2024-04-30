@@ -1,8 +1,8 @@
 public class Celular {
-    public String marca;
-    public String modelo;
-    public int qntdArmazenamento;
-    public String cor;
+    private String marca;
+    private String modelo;
+    private int qntdArmazenamento;
+    private String cor;
 
     public Celular(String marca, String modelo, int qntdArmazenamento, String cor){
         this.marca=marca;

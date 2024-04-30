@@ -1,8 +1,8 @@
 public class Copo {
-    public String material;
-    public int capacidade;
-    public String formato;
-    public double tamanho;
+    private String material;
+    private int capacidade;
+    private String formato;
+    private double tamanho;
 
     public Copo(String material, int capacidade, String formato, double tamanho){
         this.material=material;

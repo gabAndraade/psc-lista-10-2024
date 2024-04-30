@@ -1,8 +1,8 @@
 public class Carro {
-    public String cor;
-    public int qntdPortas;
-    public double preco;
-    public int ano;
+    private String cor;
+    private int qntdPortas;
+    private double preco;
+    private int ano;
 
     public Carro(String cor, int qntdPortas, double preco, int ano){
         this.cor=cor;

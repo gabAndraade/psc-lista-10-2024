@@ -1,8 +1,8 @@
 public class Fogao {
-    public String tipo;
-    public String cor;
-    public int bocas;
-    public String marca;
+    private String tipo;
+    private String cor;
+    private int bocas;
+    private String marca;
 
     public Fogao(String tipo, String cor, int bocas, String marca){
         this.tipo=tipo;

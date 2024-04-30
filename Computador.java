@@ -1,16 +1,16 @@
 public class Computador {
-    public String marca;
-    public String modelo;
-    public String cpu;
-    public int ram;
+    private String marca;
+    private String modelo;
+    private String cpu;
+    private int ram;
 
-    public Computador(String marca, String modelo, String cpu, int ram){
-        this.marca=marca;
-        this.modelo=modelo;
-        this.cpu=cpu;
-        this.ram=ram;
+    public Computador(String marca, String modelo, String cpu, int ram) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.cpu = cpu;
+        this.ram = ram;
     }
-    
+
     public String getMarca() {
         return marca;
     }

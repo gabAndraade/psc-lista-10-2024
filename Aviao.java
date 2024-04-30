@@ -1,8 +1,8 @@
 public class Aviao {
-    public String modelo;
-    public int capacidade;
-    public String fabricante;
-    public int velocidade;
+    private String modelo;
+    private int capacidade;
+    private String fabricante;
+    private int velocidade;
     public Aviao(String modelo, int capacidade, String fabricante, int velocidade){
         this.modelo=modelo;
         this.capacidade=capacidade;

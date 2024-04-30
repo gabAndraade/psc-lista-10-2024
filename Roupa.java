@@ -1,8 +1,8 @@
 public class Roupa {
-    public String material;
-    public String tamanho;
-    public String cor;
-    public String estilo;
+    private String material;
+    private String tamanho;
+    private String cor;
+    private String estilo;
 
     public Roupa(String material, String tamanho, String cor, String estilo){
         this.material=material;

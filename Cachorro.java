@@ -1,8 +1,8 @@
 public class Cachorro {
-    public String raca;
-    public String nome;
-    public int idade;
-    public String corPelo;
+    private String raca;
+    private String nome;
+    private int idade;
+    private String corPelo;
     
     public Cachorro(String raca, String nome, int idade, String corPelo){
         this.raca=raca;
